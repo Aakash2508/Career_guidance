@@ -1,0 +1,41 @@
+:root {
+    --primary-dark: #262262;
+    --primary-teal: #1b75bc;
+    --accent-light: #1f89a1;
+    --background-soft: #EBF4F6;
+  }
+  .hero-section {
+    background: linear-gradient(to bottom, #1f89a1,  white);
+    min-height: 75vh;
+    width: 85vw;
+  }
+  
+  .features-section {
+    background-color: var(--background-soft);
+  }
+  
+  .feature-card {
+    border-radius: 16px;
+    border: none;
+    transition: 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .testimonials-section {
+    background-color: #fff;
+  }
+  
+  .testimonial-card {
+    border-radius: 12px;
+    border: none;
+  }
+  
+  .cta-strip {
+    /* background: linear-gradient(to right, var(--primary-dark), var(--primary-teal)); */
+    background: linear-gradient(120deg, #1f89a1,  white);
+  }
+  

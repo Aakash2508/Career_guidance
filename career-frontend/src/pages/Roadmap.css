@@ -1,0 +1,43 @@
+
+
+
+.roadmap-wrapper {
+    overflow-x: auto;
+    white-space: normal;
+  }
+  
+  .footer {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .roadmap-svg {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+  }
+  
+  .pin {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .pin:hover {
+    transform: scale(2.0);
+  }
+  
+  .pin-circle {
+    stroke: white;
+    stroke-width: 3;
+  }
+  
+  .color-0 { fill: #007bff; }  /* Blue */
+  .color-1 { fill: #e83e8c; }  /* Pink */
+  .color-2 { fill: #28a745; }  /* Green */
+  .color-3 { fill: #fd7e14; }  /* Orange */
+  .color-4 { fill: #6f42c1; }  /* Purple */
+  .color-5 { fill: #20c997; }  /* Teal */
+  
+  
+  

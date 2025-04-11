@@ -1,0 +1,11 @@
+.option-button:hover {
+    color: white !important;
+    background-color: #0dcaf0 !important; /* Bootstrap 'info' color */
+    border-color: #0dcaf0 !important;
+  }
+  
+
+  .offcanvas-backdrop,
+.offcanvas {
+  z-index: 1055 !important;
+}
