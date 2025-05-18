@@ -20,6 +20,7 @@
 // app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 
+// server.js
 const express = require("express");
 const cors = require("cors");
 const pool = require("./db");
